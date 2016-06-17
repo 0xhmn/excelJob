@@ -22,11 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="ReadExcel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ReadExcel" target="1.5" />
+      <module name="ReadExcel_main" target="1.5" />
+      <module name="ReadExcel_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
